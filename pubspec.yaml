@@ -1,0 +1,90 @@
+name: memora
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0-190.0.dev <4.0.0'
+
+dependencies:
+  flutter_quill: ^9.3.11
+  flutter_html: 3.0.0-beta.2 # for rendering HTML
+  flutter_markdown: ^0.6.9 # for rendering Markdown
+  flutter:
+    sdk: flutter
+  cached_network_image: ^3.2.0
+  cupertino_icons: ^1.0.8
+  flutter_colorpicker: ^1.0.3
+  get_it: ^7.6.0  # Replace with the latest version
+  logging: ^1.1.0
+  iconify_flutter: ^0.0.7  # Replace with the latest version
+  colorful_iconify_flutter: ^0.0.5
+  hive: ^2.0.0
+  flutter_native_splash: ^2.3.13
+  flutter_keyboard_visibility: ^6.0.0
+  flutter_svg: ^2.0.10+1
+  flip_card: ^0.7.0
+  percent_indicator: ^4.2.3
+  shared_preferences: ^2.2.3
+  provider: ^6.1.2
+  intl: ^0.19.0
+  html: ^0.15.0  # Add this line
+  google_sign_in: ^6.2.1
+  image_picker: ^0.8.7
+  firebase_auth: ^5.2.0
+  http: ^1.2.2
+  file_picker: ^8.1.2
+  lottie: ^2.0.0
+  path_provider: ^2.0.15
+  share_plus: ^10.1.3
+  table_calendar: ^3.1.2
+  fl_chart: ^0.69.0
+  flutter_dotenv: ^5.1.0
+  uuid: ^4.5.1
+  dio: ^5.7.0
+  dotted_border: ^2.1.0
+  font_awesome_flutter: ^10.4.0
+  fluttertoast: ^8.2.8
+  oktoast: ^3.4.0
+  smooth_page_indicator: ^1.2.0+3
+  google_fonts: ^6.2.1
+  flutter_screenutil: ^5.9.3
+  get: ^4.6.6
+  cloudinary_flutter: ^1.3.0
+  cloudinary_url_gen: ^1.6.0
+  flutter_zoom_drawer: ^3.0.0  # Added zoom drawer
+
+
+  tflite_flutter: ^0.10.4
+  universal_html: ^2.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: "ic_launcher"
+  ios: false
+  image_path: "assets/launcher_icon.png"
+
+flutter:
+  fonts:
+    - family: Comfortaa
+      fonts:
+        - asset: assets/fonts/Comfortaa-Regular.ttf
+        - asset: assets/fonts/Comfortaa-Bold.ttf
+          weight: 400
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/images/as.png
+
+    - .env
